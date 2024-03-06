@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/ico" href="assets/GETSTARTEDLOGO.ico" />
+    <title>Property Listing</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="head">
+      <img src="assets/GETSTARTEDLOGO.ico" alt="GETSTARTEDLOGO" />
+      <h1>gettingstartedinproperty</h1>
+    </header>
+    <main class="main">
+      <section class="deals">
+        <h1>R2R DEALS: HMO/SA/SL</h1>
+        <div>
+          <p id="paraInDiv">
+            *Click the Listing for more details of the specific property*
+          </p>
+          <li>
+            <i
+              class="fa-solid fa-filter"
+              id="filter"
+              style="color: #4e98dc"
+              aria-label="Filter options"
+            >
+              Filter &nbsp;</i
+            >
+            <ul id="filterOptions">
+              <button onclick="sortByPrice('lowToHigh')">
+                Sort by Price (Low to High)
+              </button>
+              <button onclick="sortByPrice('highToLow')">
+                Sort by Price (High to Low)
+              </button>
+            </ul>
+          </li>
+        </div>
+
+        <ul id="propertyList"></ul>
+      </section>
+    </main>
+    <footer>
+      <div class="socials">
+        <i id="fb" class="fa-brands fa-facebook" style="color: #537bbe"></i
+        ><i id="insta" class="fa-brands fa-instagram" style="color: #e54867"></i
+        ><i
+          id="whatsapp"
+          class="fa-brands fa-whatsapp"
+          style="color: #5abe93"
+        ></i>
+      </div>
+      <div class="text">
+        <p>
+          Our NDA must be signed in order to receive the brochures and book
+          viewings for our property deals. If you prefer deals to be sent via
+          WhatsApp kindly add me to your phone contacts - mobile number is:
+          <b>+44 7522 256422</b>. If you do not save the number you will not
+          receive our broadcast messages.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="home.js"></script>
+</html>
