@@ -32,8 +32,8 @@ const propertyData = [
   },
   {
     id: 7,
-    location: "Nottingham NG4",
-    details: "3 beds · 1 bath · Rent: £1,300",
+    location: "Ipswich, IP3",
+    details: "6 beds · 6 baths · Rent: £3,000",
   },
   {
     id: 8,
@@ -102,8 +102,13 @@ const propertyData = [
   },
   {
     id: 21,
-    location: "Ipswich, IP3",
-    details: "6 beds · 6 baths · Rent: £3,000",
+    location: "Streathem SW16",
+    details: "5 beds · 5 baths · Rent: £5,500",
+  },
+  {
+    id: 22,
+    location: "Mitcham CR4 ",
+    details: "5 beds · 5 baths · Rent: £6,300",
   },
 ];
 
