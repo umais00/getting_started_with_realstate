@@ -61,9 +61,9 @@ const propertyData = [
     details: "5 beds · 5 baths · Rent: £3,100",
   },
   {
-    id: 13,
-    location: "London W13",
-    details: "4 beds · 2 baths · Rent: £3,000",
+    id: 22,
+    location: "London NW10",
+    details: "5 beds · 2 baths · Rent: £4,150",
   },
   {
     id: 14,
@@ -77,8 +77,8 @@ const propertyData = [
   },
   {
     id: 16,
-    location: "Bedfordshire, LU3",
-    details: "5 beds· 2 baths · Rent: £2,100",
+    location: "Luton, LU3",
+    details: "5 beds· 2 baths · Rent: £1,900",
   },
   {
     id: 17,
@@ -107,9 +107,10 @@ const propertyData = [
   },
   {
     id: 22,
-    location: "London NW10",
-    details: "5 beds · 2 baths · Rent: £4,000",
+    location: "London NW7",
+    details: "7 beds · 2 baths · Rent: £6,500",
   },
+  
 ];
 
 // Function to create a list item for each property
