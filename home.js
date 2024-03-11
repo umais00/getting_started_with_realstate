@@ -110,6 +110,11 @@ const propertyData = [
     location: "London NW7",
     details: "7 beds · 2 baths · Rent: £6,500",
   },
+  {
+    id: 23,
+    location: "London SE25",
+    details: "5 beds · 3 baths · Rent: £4,000",
+  },
   
 ];
 
