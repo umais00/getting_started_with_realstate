@@ -46,9 +46,9 @@ const propertyData = [
     details: "3 beds · 2 baths · Rent: £3,400",
   },
   {
-    id: 10,
-    location: "Uxbridge UB8",
-    details: "6 beds · 5 baths · Rent: £5,200",
+    id: 22,
+    location: "Mitcham CR4 ",
+    details: "5 beds · 5 baths · Rent: £6,300",
   },
   {
     id: 11,
@@ -107,8 +107,8 @@ const propertyData = [
   },
   {
     id: 22,
-    location: "Mitcham CR4 ",
-    details: "5 beds · 5 baths · Rent: £6,300",
+    location: "London NW10",
+    details: "5 beds · 2 baths · Rent: £4,000",
   },
 ];
 
