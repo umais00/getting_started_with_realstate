@@ -61,9 +61,9 @@ const propertyData = [
     details: "5 beds · 5 baths · Rent: £3,100",
   },
   {
-    id: 22,
-    location: "London NW10",
-    details: "5 beds · 2 baths · Rent: £4,150",
+    id: 13,
+    location: "London SE25",
+    details: "5 beds · 3 baths · Rent: £4,000",
   },
   {
     id: 14,
@@ -82,8 +82,8 @@ const propertyData = [
   },
   {
     id: 17,
-    location: "Uxbridge UB10",
-    details: "6 beds · 2 baths · Rent: £5,500",
+    location: "London NW7",
+    details: "7 beds · 2 baths · Rent: £6,500",
   },
   {
     id: 18,
@@ -105,15 +105,22 @@ const propertyData = [
     location: "Streathem SW16",
     details: "5 beds · 5 baths · Rent: £5,500",
   },
+
+
   {
     id: 22,
-    location: "London NW7",
-    details: "7 beds · 2 baths · Rent: £6,500",
+    location: "London UB8",
+    details: "5 beds · 1 bath · Rent: £4,400",
   },
   {
     id: 23,
-    location: "London SE25",
-    details: "5 beds · 3 baths · Rent: £4,000",
+    location: "London SW16",
+    details: "6 studios · Rent: £1,350",
+  },
+  {
+    id: 24,
+    location: "Middlesex HA1",
+    details: "3 beds · 1 reception · Rent: £2,750",
   },
   
 ];
