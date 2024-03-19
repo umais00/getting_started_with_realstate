@@ -97,14 +97,10 @@ const propertyData = [
   },
   {
     id: 20,
-    location: "Dollis Hill NW2",
-    details: "4 beds · 1 bath · Rent: £4,507",
-  },
-  {
-    id: 21,
     location: "London UB10",
     details: "6 beds · 2 baths · Rent:  £4,500",
   },
+
 
 ];
 
