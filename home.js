@@ -12,8 +12,8 @@ const propertyData = [
   },
   {
     id: 3,
-    location: "Nottingham NG4",
-    details: "2 beds · 1 bath · Rent: £1,300",
+    location: "Streathem SW16",
+    details: "5 beds · 5 baths · Rent: £5,500",
   },
   {
     id: 4,
@@ -99,16 +99,7 @@ const propertyData = [
     id: 20,
     location: "Romford RM1",
     details: "7 beds · 4 baths · Rent: £7,000",
-  },
-  {
-    id: 21,
-    location: "Streathem SW16",
-    details: "5 beds · 5 baths · Rent: £5,500",
-  },
-
-
-
-  
+  },  
 ];
 
 // Function to create a list item for each property
