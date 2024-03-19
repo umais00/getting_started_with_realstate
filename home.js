@@ -37,8 +37,8 @@ const propertyData = [
   },
   {
     id: 8,
-    location: "London SE27",
-    details: "4 beds · 2 baths · Rent: £3,800",
+    location: "London SW16",
+    details: "6 studios · Rent: £1,350",
   },
   {
     id: 9,
@@ -46,7 +46,7 @@ const propertyData = [
     details: "3 beds · 2 baths · Rent: £3,400",
   },
   {
-    id: 22,
+    id: 10,
     location: "Mitcham CR4 ",
     details: "5 beds · 5 baths · Rent: £6,300",
   },
@@ -61,9 +61,9 @@ const propertyData = [
     details: "5 beds · 5 baths · Rent: £3,100",
   },
   {
-    id: 13,
-    location: "London SE25",
-    details: "5 beds · 3 baths · Rent: £4,000",
+    id: 24,
+    location: "Middlesex HA1",
+    details: "3 beds · 1 reception · Rent: £2,750",
   },
   {
     id: 14,
@@ -82,8 +82,8 @@ const propertyData = [
   },
   {
     id: 17,
-    location: "London NW7",
-    details: "7 beds · 2 baths · Rent: £6,500",
+    location: "London UB8",
+    details: "5 beds · 1 bath · Rent: £4,400",
   },
   {
     id: 18,
@@ -107,21 +107,7 @@ const propertyData = [
   },
 
 
-  {
-    id: 22,
-    location: "London UB8",
-    details: "5 beds · 1 bath · Rent: £4,400",
-  },
-  {
-    id: 23,
-    location: "London SW16",
-    details: "6 studios · Rent: £1,350",
-  },
-  {
-    id: 24,
-    location: "Middlesex HA1",
-    details: "3 beds · 1 reception · Rent: £2,750",
-  },
+
   
 ];
 
