@@ -92,14 +92,20 @@ const propertyData = [
   },
   {
     id: 19,
-    location: "Ilford IG3",
-    details: "4 beds · 1 bath · Rent: £3,800",
+    location: "Romford RM1",
+    details: "7 beds · 4 baths · Rent: £7,000",
   },
   {
     id: 20,
-    location: "Romford RM1",
-    details: "7 beds · 4 baths · Rent: £7,000",
-  },  
+    location: "Dollis Hill NW2",
+    details: "4 beds · 1 bath · Rent: £4,507",
+  },
+  {
+    id: 21,
+    location: "London UB10",
+    details: "6 beds · 2 baths · Rent:  £4,500",
+  },
+
 ];
 
 // Function to create a list item for each property
