@@ -105,6 +105,21 @@ const propertyData = [
     location: "Middlesex, HA6",
     details: "7 beds · 7 baths · Rent:  £7,000",
   },
+  {
+    id: 22,
+    location: "London, NW4",
+    details: "4 beds · 3 baths · Rent:  £4,000",
+  },
+  {
+    id: 23,
+    location: "Luton, LU4",
+    details: "5 beds · 3 baths · Rent:  £2,700",
+  },
+  {
+    id: 24,
+    location: "Purley, CR8",
+    details: "4 beds · 2 baths · Rent:  £3,200",
+  },
 ];
 
 // Function to create a list item for each property
