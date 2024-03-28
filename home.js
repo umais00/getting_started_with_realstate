@@ -120,6 +120,11 @@ const propertyData = [
     location: "Purley, CR8",
     details: "4 beds · 2 baths · Rent:  £3,200",
   },
+  {
+    id: 25,
+    location: "London SE6",
+    details: "9 beds · 4 baths · Rent:  £8,000",
+  },
 ];
 
 // Function to create a list item for each property
