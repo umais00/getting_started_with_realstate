@@ -125,6 +125,16 @@ const propertyData = [
     location: "London SE6",
     details: "9 beds · 4 baths · Rent:  £8,000",
   },
+  {
+    id: 26,
+    location: "London, SW15",
+    details: "1 bed · 1 bath · Rent:  £1,750",
+  },
+  {
+    id: 27,
+    location: "Worthing BN14",
+    details: "6 beds · 3 baths · Rent:  £4,000",
+  },
 ];
 
 // Function to create a list item for each property
