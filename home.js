@@ -61,9 +61,9 @@ const propertyData = [
     details: "5 beds · 5 baths · Rent: £3,100",
   },
   {
-    id: 24,
-    location: "Middlesex HA1",
-    details: "3 beds · 1 reception · Rent: £2,750",
+    id: 13,
+    location: "Worthing BN14",
+    details: "6 beds · 3 baths · Rent:  £4,000",
   },
   {
     id: 14,
@@ -132,9 +132,10 @@ const propertyData = [
   },
   {
     id: 27,
-    location: "Worthing BN14",
-    details: "6 beds · 3 baths · Rent:  £4,000",
+    location: "Liverpool L5",
+    details: "6 beds · 5 baths · Rent:  £2,297",
   },
+
 ];
 
 // Function to create a list item for each property
