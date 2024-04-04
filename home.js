@@ -2,13 +2,13 @@
 const propertyData = [
   {
     id: 1,
-    location: "Bedford, MK42",
-    details: "5 beds · 2 baths · Rent: £2,500",
+    location: "London SE6",
+    details: "9 beds · 4 baths · Rent:  £8,000",
   },
   {
     id: 2,
-    location: "Brighton, BN1",
-    details: "1 bed · 1 bath · Rent: £1,350",
+    location: "Liverpool L5",
+    details: "6 beds · 5 baths · Rent:  £2,297",
   },
   {
     id: 3,
@@ -17,8 +17,8 @@ const propertyData = [
   },
   {
     id: 4,
-    location: "Holloway, N7",
-    details: "5 beds · 2 bath · Rent: £5,993",
+    location: "Luton, LU4",
+    details: "5 beds · 3 baths · Rent:  £2,700",
   },
   {
     id: 5,
@@ -32,8 +32,8 @@ const propertyData = [
   },
   {
     id: 7,
-    location: "Ipswich, IP3",
-    details: "6 beds · 6 baths · Rent: £3,000",
+    location: "Purley, CR8",
+    details: "4 beds · 2 baths · Rent:  £3,200",
   },
   {
     id: 8,
@@ -77,8 +77,8 @@ const propertyData = [
   },
   {
     id: 16,
-    location: "Luton, LU3",
-    details: "5 beds· 2 baths · Rent: £1,900",
+    location: "London, SW15",
+    details: "1 bed · 1 bath · Rent:  £1,750",
   },
   {
     id: 17,
@@ -112,28 +112,13 @@ const propertyData = [
   },
   {
     id: 23,
-    location: "Luton, LU4",
-    details: "5 beds · 3 baths · Rent:  £2,700",
+    location: "London E7",
+    details: "5 beds · 2 baths · Rent:  £5,000",
   },
   {
     id: 24,
-    location: "Purley, CR8",
-    details: "4 beds · 2 baths · Rent:  £3,200",
-  },
-  {
-    id: 25,
-    location: "London SE6",
-    details: "9 beds · 4 baths · Rent:  £8,000",
-  },
-  {
-    id: 26,
-    location: "London, SW15",
-    details: "1 bed · 1 bath · Rent:  £1,750",
-  },
-  {
-    id: 27,
-    location: "Liverpool L5",
-    details: "6 beds · 5 baths · Rent:  £2,297",
+    location: "Hampshire PO4",
+    details: "3 beds · 1 bath · Rent:  £1,750",
   },
 
 ];
