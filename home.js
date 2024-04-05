@@ -120,7 +120,12 @@ const propertyData = [
     location: "Hampshire PO4",
     details: "3 beds · 1 bath · Rent:  £1,750",
   },
-
+  {
+    id: 25,
+    location: "Smethwick, B67",
+    details: "7 beds · 5 baths · Rent:  £3,000",
+  },
+  
 ];
 
 // Function to create a list item for each property
