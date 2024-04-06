@@ -125,6 +125,16 @@ const propertyData = [
     location: "Smethwick, B67",
     details: "7 beds · 5 baths · Rent:  £3,000",
   },
+  {
+    id: 26,
+    location: "Dagenham RM9",
+    details: "5 beds · 2 baths · Rent:  £3,500",
+  },
+  {
+    id: 27,
+    location: "London E3",
+    details: "4 beds · 2 baths · Rent:  £2,900",
+  },
   
 ];
 
