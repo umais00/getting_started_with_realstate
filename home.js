@@ -4,138 +4,68 @@ const propertyData = [
     id: 1,
     location: "London SE6",
     details: "9 beds · 4 baths · Rent:  £8,000",
-  },
-  {
+},
+{
     id: 2,
-    location: "Liverpool L5",
-    details: "6 beds · 5 baths · Rent:  £2,297",
-  },
-  {
-    id: 3,
-    location: "Streathem SW16",
-    details: "5 beds · 5 baths · Rent: £5,500",
-  },
-  {
-    id: 4,
     location: "Luton, LU4",
     details: "5 beds · 3 baths · Rent:  £2,700",
-  },
-  {
-    id: 5,
-    location: "Nottingham NG1",
-    details: "1 bed · 2 baths · Rent: £1,100",
-  },
-  {
-    id: 6,
-    location: "Surrey CR0",
-    details: "4 beds· 2 baths · Rent: £3,500",
-  },
-  {
-    id: 7,
+},
+{
+    id: 3,
     location: "Purley, CR8",
     details: "4 beds · 2 baths · Rent:  £3,200",
-  },
-  {
-    id: 8,
-    location: "London SW16",
-    details: "6 studios · Rent: £1,350",
-  },
-  {
-    id: 9,
+},
+{
+    id: 4,
     location: "Surrey KT18",
     details: "3 beds · 2 baths · Rent: £3,400",
-  },
-  {
-    id: 10,
-    location: "Mitcham CR4 ",
-    details: "5 beds · 5 baths · Rent: £6,300",
-  },
-  {
-    id: 11,
-    location: "Stoke-On-Trent ST4",
-    details: "4 beds · 4 baths · Rent: £1,300",
-  },
-  {
-    id: 12,
-    location: "Luton LU2",
-    details: "5 beds · 5 baths · Rent: £3,100",
-  },
-  {
-    id: 13,
-    location: "Worthing BN14",
-    details: "6 beds · 3 baths · Rent:  £4,000",
-  },
-  {
-    id: 14,
+},
+{
+    id: 5,
     location: "Ramsgate CT11",
     details: "4 beds· 2 baths · Rent: £2,800",
-  },
-  {
-    id: 15,
-    location: "Westcliff On Sea SS0",
-    details: "3 beds · 1 bath · Rent: £2,000",
-  },
-  {
-    id: 16,
+},
+{
+    id: 6,
     location: "London, SW15",
     details: "1 bed · 1 bath · Rent:  £1,750",
-  },
-  {
-    id: 17,
-    location: "London UB8",
-    details: "5 beds · 1 bath · Rent: £4,400",
-  },
-  {
-    id: 18,
-    location: "London SE6",
-    details: "7 beds · 5 baths · Rent: £7,500",
-  },
-  {
-    id: 19,
+},
+{
+    id: 7,
     location: "Romford RM1",
     details: "7 beds · 4 baths · Rent: £7,000",
-  },
-  {
-    id: 20,
-    location: "London UB10",
-    details: "6 beds · 2 baths · Rent:  £4,500",
-  },
-  {
-    id: 21,
+},
+{
+    id: 8,
     location: "Middlesex, HA6",
     details: "7 beds · 7 baths · Rent:  £7,000",
-  },
-  {
-    id: 22,
+},
+{
+    id: 9,
     location: "London, NW4",
     details: "4 beds · 3 baths · Rent:  £4,000",
-  },
-  {
-    id: 23,
+},
+{
+    id: 10,
     location: "London E7",
     details: "5 beds · 2 baths · Rent:  £5,000",
-  },
-  {
-    id: 24,
+},
+{
+    id: 11,
     location: "Hampshire PO4",
     details: "3 beds · 1 bath · Rent:  £1,750",
-  },
-  {
-    id: 25,
+},
+{
+    id: 12,
     location: "Smethwick, B67",
     details: "7 beds · 5 baths · Rent:  £3,000",
-  },
-  {
-    id: 26,
-    location: "Dagenham RM9",
-    details: "5 beds · 2 baths · Rent:  £3,500",
-  },
-  {
-    id: 27,
-    location: "London E3",
-    details: "4 beds · 2 baths · Rent:  £2,900",
-  },
-  
+},
+{
+    id: 13,
+    location: "Worthing, BN14",
+    details: "6 beds · 5 baths · Rent:  £2,500",
+}
+
 ];
 
 // Function to create a list item for each property
