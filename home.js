@@ -64,6 +64,21 @@ const propertyData = [
     id: 13,
     location: "Worthing, BN14",
     details: "6 beds · 5 baths · Rent:  £2,500",
+},
+{
+    id: 14,
+    location: "Upton Park Road, London E7",
+    details: "7 beds · 3 baths · Rent:  £7,500",
+},
+{
+    id: 15,
+    location: "Waterloo Road, Smethwick B66",
+    details: "5 beds · 5 baths · Rent:  £2,750",
+},
+{
+    id: 16,
+    location: "Buller Road, Thornton Heath CR7",
+    details: "4 beds · 1 bath · Rent:  £3,500",
 }
 
 ];
