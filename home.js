@@ -67,18 +67,43 @@ const propertyData = [
 },
 {
     id: 14,
-    location: "Upton Park Road, London E7",
+    location: "Upton Park Road E7",
     details: "7 beds · 3 baths · Rent:  £7,500",
 },
 {
     id: 15,
-    location: "Waterloo Road, Smethwick B66",
+    location: "Smethwick B66",
     details: "5 beds · 5 baths · Rent:  £2,750",
 },
 {
     id: 16,
-    location: "Buller Road, Thornton Heath CR7",
+    location: "Thornton Heath CR7",
     details: "4 beds · 1 bath · Rent:  £3,500",
+},
+{
+    id: 17,
+    location: "Coventry CV1",
+    details: "5 beds · 5 baths · Rent:  £2,500",
+},
+{
+    id: 18,
+    location: " Coventry CV1",
+    details: "2 beds · 1 bath · Rent:  £975",
+},
+{
+    id: 19,
+    location: "London, E15",
+    details: "4 beds · 2 bath · Rent: £3,650",
+},
+{
+    id: 20,
+    location: "Gloucester GL1",
+    details: "6 beds · 2 bath · Rent: £3,000",
+},
+{
+    id: 21,
+    location: "Bedfordshire LU4",
+    details: "4 beds · 2 bath · Rent: £2,100",
 }
 
 ];
