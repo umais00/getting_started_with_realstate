@@ -93,17 +93,32 @@ const propertyData = [
 {
     id: 19,
     location: "London, E15",
-    details: "4 beds · 2 bath · Rent: £3,650",
+    details: "4 beds · 2 baths · Rent: £3,650",
 },
 {
     id: 20,
     location: "Gloucester GL1",
-    details: "6 beds · 2 bath · Rent: £3,000",
+    details: "6 beds · 2 baths · Rent: £3,000",
 },
 {
     id: 21,
     location: "Bedfordshire LU4",
-    details: "4 beds · 2 bath · Rent: £2,100",
+    details: "4 beds · 2 baths · Rent: £2,100",
+},
+{
+    id: 22,
+    location: "Norwich Road, IP1",
+    details: "9 beds · 5 baths · Rent: £5,000",
+},
+{
+    id: 23,
+    location: "Ilford IG3",
+    details: "6 beds · 6 baths · Rent: £5,500",
+},
+{
+    id: 24,
+    location: "Wednesbury WS10",
+    details: "6 beds · 2 baths · Rent: £2,000",
 }
 
 ];
