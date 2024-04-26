@@ -71,7 +71,7 @@ const propertyData = [
     details: "7 beds · 3 baths · Rent:  £7,500",
 },
 {
-  id: 24,
+  id: 15,
   location: "Wednesbury WS10",
   details: "6 beds · 2 baths · Rent: £2,000",
 },
