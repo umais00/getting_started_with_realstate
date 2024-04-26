@@ -71,9 +71,9 @@ const propertyData = [
     details: "7 beds · 3 baths · Rent:  £7,500",
 },
 {
-    id: 15,
-    location: "Smethwick B66",
-    details: "5 beds · 5 baths · Rent:  £2,750",
+  id: 24,
+  location: "Wednesbury WS10",
+  details: "6 beds · 2 baths · Rent: £2,000",
 },
 {
     id: 16,
@@ -115,11 +115,7 @@ const propertyData = [
     location: "Ilford IG3",
     details: "6 beds · 6 baths · Rent: £5,500",
 },
-{
-    id: 24,
-    location: "Wednesbury WS10",
-    details: "6 beds · 2 baths · Rent: £2,000",
-}
+
 
 ];
 
