@@ -33,7 +33,7 @@ const propertyData = [
 {
     id: 7,
     location: "Romford RM1",
-    details: "7 beds · 4 baths · Rent: £7,000",
+    details: "7 beds · 4 baths · Rent: £5,500",
 },
 {
     id: 8,
@@ -118,12 +118,12 @@ const propertyData = [
 {
     id: 24,
     location: "North Yorkshire",
-    details: "4 beds · N/A baths · Rent: £3,000",
+    details: "4 beds · 2 baths · Rent: £3,000",
 },
 {
   id: 25,
   location: "Bradford, BD1",
-  details: "1 bed · N/A baths · Rent: £900",
+  details: "1 bed · 1 bath · Rent: £900",
 },
 
 ];
