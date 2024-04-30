@@ -115,7 +115,16 @@ const propertyData = [
     location: "Ilford IG3",
     details: "6 beds · 6 baths · Rent: £5,500",
 },
-
+{
+    id: 24,
+    location: "North Yorkshire",
+    details: "4 beds · N/A baths · Rent: £3,000",
+},
+{
+  id: 25,
+  location: "Bradford, BD1",
+  details: "1 bed · N/A baths · Rent: £900",
+},
 
 ];
 
