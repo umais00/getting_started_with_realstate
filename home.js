@@ -3,130 +3,75 @@ const propertyData = [
   {
     id: 1,
     location: "London SE6",
-    details: "9 beds · 4 baths · Rent:  £8,000",
-},
-{
+    details: "9 beds · 4 baths · Rent:  £8,000",
+  },
+  {
     id: 2,
-    location: "Luton, LU4",
-    details: "5 beds · 3 baths · Rent:  £2,700",
-},
-{
-    id: 3,
-    location: "Purley, CR8",
-    details: "4 beds · 2 baths · Rent:  £3,200",
-},
-{
-    id: 4,
-    location: "Surrey KT18",
-    details: "3 beds · 2 baths · Rent: £3,400",
-},
-{
-    id: 5,
-    location: "Ramsgate CT11",
-    details: "4 beds· 2 baths · Rent: £2,800",
-},
-{
-    id: 6,
-    location: "London, SW15",
-    details: "1 bed · 1 bath · Rent:  £1,750",
-},
-{
-    id: 7,
-    location: "Romford RM1",
-    details: "7 beds · 4 baths · Rent: £5,500",
-},
-{
-    id: 8,
     location: "Middlesex, HA6",
-    details: "7 beds · 7 baths · Rent:  £7,000",
-},
-{
-    id: 9,
+    details: "7 beds · 7 baths · Rent:  £7,000",
+  },
+  {
+    id: 3,
     location: "London, NW4",
-    details: "4 beds · 3 baths · Rent:  £4,000",
-},
-{
-    id: 10,
-    location: "London E7",
-    details: "5 beds · 2 baths · Rent:  £5,000",
-},
-{
-    id: 11,
-    location: "Hampshire PO4",
-    details: "3 beds · 1 bath · Rent:  £1,750",
-},
-{
-    id: 12,
+    details: "4 beds · 3 baths · Rent:  £4,000",
+  },
+  {
+    id: 4,
     location: "Smethwick, B67",
-    details: "7 beds · 5 baths · Rent:  £3,000",
-},
-{
-    id: 13,
-    location: "Worthing, BN14",
-    details: "6 beds · 5 baths · Rent:  £2,500",
-},
-{
-    id: 14,
+    details: "7 beds · 5 baths · Rent:  £3,000",
+  },
+  {
+    id: 5,
     location: "Upton Park Road E7",
-    details: "7 beds · 3 baths · Rent:  £7,500",
-},
-{
-  id: 15,
-  location: "Wednesbury WS10",
-  details: "6 beds · 2 baths · Rent: £2,000",
-},
-{
-    id: 16,
+    details: "7 beds · 3 baths · Rent:  £7,500",
+  },
+  {
+    id: 6,
+    location: "Wednesbury WS10",
+    details: "6 beds · 2 baths · Rent: £2,000",
+  },
+  {
+    id: 7,
     location: "Thornton Heath CR7",
-    details: "4 beds · 1 bath · Rent:  £3,500",
-},
-{
-    id: 17,
+    details: "4 beds · 1 bath · Rent:  £3,500",
+  },
+  {
+    id: 8,
     location: "Coventry CV1",
-    details: "5 beds · 5 baths · Rent:  £2,500",
-},
-{
-    id: 18,
-    location: " Coventry CV1",
-    details: "2 beds · 1 bath · Rent:  £975",
-},
-{
-    id: 19,
-    location: "London, E15",
-    details: "4 beds · 2 baths · Rent: £3,650",
-},
-{
-    id: 20,
-    location: "Gloucester GL1",
-    details: "6 beds · 2 baths · Rent: £3,000",
-},
-{
-    id: 21,
+    details: "5 beds · 5 baths · Rent:  £2,500",
+  },
+  {
+    id: 9,
+    location: "Coventry CV1",
+    details: "2 beds · 1 bath · Rent:  £975",
+  },
+  {
+    id: 10,
     location: "Bedfordshire LU4",
     details: "4 beds · 2 baths · Rent: £2,100",
-},
-{
-    id: 22,
+  },
+  {
+    id: 11,
     location: "Norwich Road, IP1",
     details: "9 beds · 5 baths · Rent: £5,000",
-},
-{
-    id: 23,
-    location: "Ilford IG3",
-    details: "6 beds · 6 baths · Rent: £5,500",
-},
-{
-    id: 24,
+  },
+  {
+    id: 12,
     location: "North Yorkshire",
     details: "4 beds · 2 baths · Rent: £3,000",
-},
-{
-  id: 25,
-  location: "Bradford, BD1",
-  details: "1 bed · 1 bath · Rent: £900",
-},
-
+  },
+  {
+    id: 13,
+    location: "Epsom, Surrey. KT18",
+    details: "3 beds · 2 baths · Rent: £3,000",
+  },
+  {
+    id: 14,
+    location: "Worthing BN14",
+    details: "6 beds · 3 baths · Rent: £4,000",
+  },
 ];
+
 
 // Function to create a list item for each property
 function createPropertyListItem(property) {
