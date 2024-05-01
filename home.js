@@ -85,6 +85,16 @@ const propertyData = [
     location: " London SW16",
     details: "4 beds · 5 baths · Rent: £4,500",
   },
+  {
+    id: 18,
+    location: " Hove, BN3",
+    details: "5 beds · 2 baths · Rent: £3,500",
+  },
+  {
+    id: 19,
+    location: " Dunstable, LU6",
+    details: "5 beds · 2 baths · Rent: £2,200",
+  },
 ];
 
 
