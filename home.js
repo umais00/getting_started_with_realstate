@@ -70,6 +70,21 @@ const propertyData = [
     location: "Worthing BN14",
     details: "6 beds · 3 baths · Rent: £4,000",
   },
+  {
+    id: 15,
+    location: "Coventry CV5",
+    details: "5 beds · 5 baths · Rent: £2,500",
+  },
+  {
+    id: 16,
+    location: "Conditioning House, Cape Street",
+    details: "1 bed · 1 bath · Rent: £900",
+  },
+  {
+    id: 17,
+    location: " London SW16",
+    details: "4 beds · 5 baths · Rent: £4,500",
+  },
 ];
 
 
