@@ -57,7 +57,7 @@ const propertyData = [
   },
   {
     id: 12,
-    location: "North Yorkshire",
+    location: "North Yorkshire YO23 ",
     details: "4 beds · 2 baths · Rent: £3,000",
   },
   {
