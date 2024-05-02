@@ -95,6 +95,21 @@ const propertyData = [
     location: " Dunstable, LU6",
     details: "5 beds · 2 baths · Rent: £2,200",
   },
+  {
+    id: 20,
+    location: " Bristol BS16",
+    details: "4 beds · 2 baths · Rent: £3,000",
+  },
+  {
+    id: 21,
+    location: "Nottingham NG11",
+    details: "3 beds · 1 bath · Rent: £1,150",
+  },
+  {
+    id: 22,
+    location: "Chester House, SE8",
+    details: "1 bed · 1 bath · Rent: £1,400",
+  },
 ];
 
 
