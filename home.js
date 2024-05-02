@@ -3,27 +3,27 @@ const propertyData = [
   {
     id: 1,
     location: "London SE6",
-    details: "9 beds · 4 baths · Rent:  £8,000",
+    details: "9 beds · 4 baths · Rent: £8,000",
   },
   {
     id: 2,
     location: "Middlesex, HA6",
-    details: "7 beds · 7 baths · Rent:  £7,000",
+    details: "7 beds · 7 baths · Rent: £7,000",
   },
   {
     id: 3,
     location: "London, NW4",
-    details: "4 beds · 3 baths · Rent:  £4,000",
+    details: "4 beds · 3 baths · Rent: £4,000",
   },
   {
     id: 4,
     location: "Smethwick, B67",
-    details: "7 beds · 5 baths · Rent:  £3,000",
+    details: "7 beds · 5 baths · Rent: £3,000",
   },
   {
     id: 5,
     location: "Upton Park Road E7",
-    details: "7 beds · 3 baths · Rent:  £7,500",
+    details: "7 beds · 3 baths · Rent: £7,500",
   },
   {
     id: 6,
@@ -33,17 +33,17 @@ const propertyData = [
   {
     id: 7,
     location: "Thornton Heath CR7",
-    details: "4 beds · 1 bath · Rent:  £3,500",
+    details: "4 beds · 1 bath · Rent: £3,500",
   },
   {
     id: 8,
     location: "Coventry CV1",
-    details: "5 beds · 5 baths · Rent:  £2,500",
+    details: "5 beds · 5 baths · Rent: £2,500",
   },
   {
     id: 9,
     location: "Coventry CV1",
-    details: "2 beds · 1 bath · Rent:  £975",
+    details: "2 beds · 1 bath · Rent: £975",
   },
   {
     id: 10,
