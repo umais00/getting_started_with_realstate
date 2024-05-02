@@ -142,8 +142,11 @@ function renderPropertyList() {
 }
 
 // Call the function to render the property list when the page loads
-window.onload = renderPropertyList;
-
+window.onload = () => {
+  // Reverse the propertyData array
+  propertyData.reverse();
+  renderPropertyList();
+};
 // Event listeners for social media links
 document.getElementById("whatsapp").addEventListener("click", () => {
   window.open(
