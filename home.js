@@ -2,8 +2,8 @@
 const propertyData = [
   {
     id: 1,
-    location: "London SE6",
-    details: "9 beds · 4 baths · Rent: £8,000",
+    location: "New Haw KT15",
+    details: "2 beds · 2 baths · Rent: £1,700",
   },
   {
     id: 2,
@@ -12,8 +12,8 @@ const propertyData = [
   },
   {
     id: 3,
-    location: "London, NW4",
-    details: "4 beds · 3 baths · Rent: £4,000",
+    location: "Luton LU1",
+    details: "5 beds · 5 baths · Rent: £2,600",
   },
   {
     id: 4,
@@ -27,81 +27,43 @@ const propertyData = [
   },
   {
     id: 6,
-    location: "Wednesbury WS10",
-    details: "6 beds · 2 baths · Rent: £2,000",
+    location: "London SW12",
+    details: "3 beds · 1 baths · Rent: £2,500",
   },
   {
     id: 7,
-    location: "Thornton Heath CR7",
-    details: "4 beds · 1 bath · Rent: £3,500",
+    location: "Chadwell Heath RM6",
+    details: "4 beds · 3 bath · Rent: £3,000",
   },
   {
     id: 8,
-    location: "Coventry CV1",
-    details: "5 beds · 5 baths · Rent: £2,500",
+    location: "West Midlands, B15",
+    details: "3 beds · 3 baths · Rent: £2,500",
   },
   {
     id: 9,
-    location: "Coventry CV1",
-    details: "2 beds · 1 bath · Rent: £975",
+    location: "Wolverhampton WV1",
+    details: "6 beds · 3 baths · Rent: £1,900",
   },
   {
     id: 10,
     location: "Bedfordshire LU4",
     details: "4 beds · 2 baths · Rent: £2,100",
   },
+
   {
     id: 11,
-    location: "Norwich Road, IP1",
-    details: "9 beds · 5 baths · Rent: £5,000",
-  },
-  {
-    id: 12,
     location: "North Yorkshire YO23 ",
     details: "4 beds · 2 baths · Rent: £3,000",
   },
   {
-    id: 13,
+    id: 12,
     location: "Epsom, Surrey. KT18",
     details: "3 beds · 2 baths · Rent: £3,000",
   },
+
   {
-    id: 14,
-    location: "Worthing BN14",
-    details: "6 beds · 3 baths · Rent: £4,000",
-  },
-  {
-    id: 15,
-    location: "Coventry CV5",
-    details: "5 beds · 5 baths · Rent: £2,500",
-  },
-  {
-    id: 16,
-    location: "Conditioning House, Cape Street",
-    details: "1 bed · 1 bath · Rent: £900",
-  },
-  {
-    id: 17,
-    location: " London SW16",
-    details: "4 beds · 5 baths · Rent: £4,500",
-  },
-  {
-    id: 18,
-    location: " Hove, BN3",
-    details: "5 beds · 2 baths · Rent: £3,500",
-  },
-  {
-    id: 19,
-    location: " Dunstable, LU6",
-    details: "5 beds · 2 baths · Rent: £2,200",
-  },
-  {
-    id: 20,
-    location: " Bristol BS16",
-    details: "4 beds · 2 baths · Rent: £3,000",
-  },
-  {
-    id: 21,
+    id: 13,
     location: "Nottingham NG11",
     details: "3 beds · 1 bath · Rent: £1,150",
   },
