@@ -37,7 +37,7 @@ const propertyData = [
   },
   {
     id: 8,
-    location: "West Midlands, B15",
+    location: "West Midlands, ST5",
     details: "3 beds · 3 baths · Rent: £2,500",
   },
   {
@@ -66,11 +66,6 @@ const propertyData = [
     id: 13,
     location: "Nottingham NG11",
     details: "3 beds · 1 bath · Rent: £1,150",
-  },
-  {
-    id: 22,
-    location: "Chester House, SE8",
-    details: "1 bed · 1 bath · Rent: £1,400",
   },
 ];
 
