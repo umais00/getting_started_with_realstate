@@ -2,8 +2,8 @@
 const propertyData = [
   {
     id: 1,
-    location: "New Haw KT15",
-    details: "2 beds · 2 baths · Rent: £1,700",
+    location: "Nottingham NG11",
+    details: "3 beds · 1 bath · Rent: £1,150",
   },
   {
     id: 2,
@@ -62,11 +62,7 @@ const propertyData = [
     details: "3 beds · 2 baths · Rent: £3,000",
   },
 
-  {
-    id: 13,
-    location: "Nottingham NG11",
-    details: "3 beds · 1 bath · Rent: £1,150",
-  },
+
 ];
 
 
