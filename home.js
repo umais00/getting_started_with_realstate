@@ -77,6 +77,11 @@ const propertyData = [
     location: "Maxton Road, Liverpool",
     details: "4 beds · 1 bath · Rent: £1,300",
   },
+  {
+    id: 16,
+    location: "Northampton, NN2",
+    details: "10 beds · 4 baths · Rent: £3,350",
+  },
 
 ];
 
