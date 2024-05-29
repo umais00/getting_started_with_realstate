@@ -23,7 +23,7 @@ const propertyData = [
   {
     id: 5,
     location: "Upton Park Road E7",
-    details: "7 beds · 3 baths · Rent: £7,500",
+    details: "7 beds · 3 baths · Rent: £6,750",
   },
   {
     id: 6,
@@ -61,7 +61,22 @@ const propertyData = [
     location: "Epsom, Surrey. KT18",
     details: "3 beds · 2 baths · Rent: £3,000",
   },
-
+  {
+    id: 13,
+    location: "Hertfordshire EN8",
+    details: "3 beds · 2 baths · Rent: £2,200",
+  },
+  {
+    id: 14,
+    location: "West Midlands, B15",
+    details: "3 beds · 3 baths · Rent: £2,495",
+  },
+  
+  {
+    id: 15,
+    location: "Maxton Road, Liverpool",
+    details: "4 beds · 1 bath · Rent: £1,300",
+  },
 
 ];
 
