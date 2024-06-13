@@ -53,8 +53,8 @@ const propertyData = [
 
   {
     id: 11,
-    location: "North Yorkshire YO23 ",
-    details: "4 beds · 2 baths · Rent: £3,000",
+    location: "Melville Road, Birmingham, B16",
+    details: "1 bed · 1 baths · Rent: £1,600",
   },
   {
     id: 12,
@@ -74,13 +74,13 @@ const propertyData = [
   
   {
     id: 15,
-    location: "Maxton Road, Liverpool",
-    details: "4 beds · 1 bath · Rent: £1,300",
+    location: "Liverpool L6",
+    details: "11 beds · 11 baths · Rent: £5,450",
   },
   {
     id: 16,
-    location: "Northampton, NN2",
-    details: "10 beds · 4 baths · Rent: £3,350",
+    location: "Gainsborough, DN21",
+    details: "4 beds · 2 baths · Rent: £1,250",
   },
 
 ];
