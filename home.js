@@ -2,13 +2,13 @@
 const propertyData = [
   {
     id: 1,
-    location: "Nottingham NG11",
-    details: "3 beds · 1 bath · Rent: £1,150",
+    location: "Coventry CV2",
+    details: "5 beds · 2 bath · Rent: £2,100",
   },
   {
     id: 2,
-    location: "Middlesex, HA6",
-    details: "7 beds · 7 baths · Rent: £7,000",
+    location: "London E6",
+    details: "4 beds · 2 baths · Rent: £1,700",
   },
   {
     id: 3,
@@ -17,8 +17,8 @@ const propertyData = [
   },
   {
     id: 4,
-    location: "Smethwick, B67",
-    details: "7 beds · 5 baths · Rent: £3,000",
+    location: "Bristol BS4",
+    details: "4 beds · 1 bath · Rent: £2,900",
   },
   {
     id: 5,
@@ -32,18 +32,18 @@ const propertyData = [
   },
   {
     id: 7,
-    location: "Chadwell Heath RM6",
-    details: "4 beds · 3 bath · Rent: £3,000",
+    location: "Houghton Regis LU5",
+    details: "4 beds · 3 bath · Rent: £2,200",
   },
   {
     id: 8,
-    location: "West Midlands, ST5",
-    details: "3 beds · 3 baths · Rent: £2,500",
+    location: "Staffordshire, ST5",
+    details: "6 beds · 2 baths · Rent: £2,550",
   },
   {
     id: 9,
-    location: "Wolverhampton WV1",
-    details: "6 beds · 3 baths · Rent: £1,900",
+    location: "London E7",
+    details: "5 beds · 2 baths · Rent: £5,000",
   },
   {
     id: 10,
