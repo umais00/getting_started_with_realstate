@@ -82,6 +82,11 @@ const propertyData = [
     location: "Gainsborough, DN21",
     details: "4 beds · 2 baths · Rent: £1,250",
   },
+  {
+    id: 17,
+    location: "Shirley B90",
+    details: "3 beds · 2 baths · Rent: £1,800",
+  },
 
 ];
 
