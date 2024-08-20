@@ -2,91 +2,51 @@
 const propertyData = [
   {
     id: 1,
-    location: "Coventry CV2",
-    details: "5 beds · 2 bath · Rent: £2,100",
+    location: "Bristol BS7",
+    details: "4 beds · 2 bath · Rent: £2,500",
   },
   {
     id: 2,
-    location: "London E6",
-    details: "4 beds · 2 baths · Rent: £1,700",
+    location: "London E7",
+    details: "7 beds · 3 baths · Rent: £6,249",
   },
   {
     id: 3,
-    location: "Luton LU1",
-    details: "5 beds · 5 baths · Rent: £2,600",
+    location: "Raven Row, London E1",
+    details: "5 beds · 2 baths · Rent: £6,000",
   },
   {
     id: 4,
-    location: "Bristol BS4",
-    details: "4 beds · 1 bath · Rent: £2,900",
+    location: "Birmingham, B18",
+    details: "5 beds · 3 baths · Rent: £1,800",
   },
   {
     id: 5,
-    location: "Upton Park Road E7",
-    details: "7 beds · 3 baths · Rent: £6,750",
+    location: "High Wycombe HP12",
+    details: "4 beds · 1 bath · Rent: £2,400",
   },
   {
     id: 6,
-    location: "London SW12",
-    details: "3 beds · 1 baths · Rent: £2,500",
+    location: "Lansdowne Road, Leicester LE2",
+    details: "5 beds · 2 baths · Rent: £1,400",
   },
   {
     id: 7,
-    location: "Houghton Regis LU5",
-    details: "4 beds · 3 bath · Rent: £2,200",
+    location: "Birmingham B14",
+    details: "3 beds · 1 bath · Rent: £1,500",
   },
   {
     id: 8,
-    location: "Staffordshire, ST5",
-    details: "6 beds · 2 baths · Rent: £2,550",
+    location: "Berkshire SL2",
+    details: "6 beds · 3 baths · Rent: £6,500",
   },
   {
     id: 9,
-    location: "London E7",
-    details: "5 beds · 2 baths · Rent: £5,000",
-  },
-  {
-    id: 10,
-    location: "Bedfordshire LU4",
-    details: "4 beds · 2 baths · Rent: £2,100",
+    location: "Berkshire SL1",
+    details: "6 beds · 6 baths · Rent: £7,000",
   },
 
-  {
-    id: 11,
-    location: "Melville Road, Birmingham, B16",
-    details: "1 bed · 1 baths · Rent: £1,600",
-  },
-  {
-    id: 12,
-    location: "Epsom, Surrey. KT18",
-    details: "3 beds · 2 baths · Rent: £3,000",
-  },
-  {
-    id: 13,
-    location: "Hertfordshire EN8",
-    details: "3 beds · 2 baths · Rent: £2,200",
-  },
-  {
-    id: 14,
-    location: "West Midlands, B15",
-    details: "3 beds · 3 baths · Rent: £2,495",
-  },
-  
-  {
-    id: 15,
-    location: "Liverpool L6",
-    details: "11 beds · 11 baths · Rent: £5,450",
-  },
-  {
-    id: 16,
-    location: "Gainsborough, DN21",
-    details: "4 beds · 2 baths · Rent: £1,250",
-  },
-  {
-    id: 17,
-    location: "Shirley B90",
-    details: "3 beds · 2 baths · Rent: £1,800",
-  },
+
 
 ];
 
