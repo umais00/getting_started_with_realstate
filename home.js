@@ -46,6 +46,12 @@ const propertyData = [
     details: "6 beds · 6 baths · Rent: £7,000",
   },
 
+  {
+    id: 10,
+    location: "Luton LU2",
+    details: "5 beds · 4 baths · Rent: £3,100",
+  }
+
 
 
 ];
