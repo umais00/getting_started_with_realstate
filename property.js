@@ -1,80 +1,92 @@
-// Handle link opening events
-const linkHandlers = {
-  whatsapp: () => window.open("https://api.whatsapp.com/send?phone=447522256422", "_blank", "popup=yes"),
-  insta: () => window.open("https://www.instagram.com/gettingstartedinproperty/?fbclid=IwAR1Z6k4tz_dwfAxYh_zPTIXuNt_7Qc32BaBmYnzklK4LDb8j-8Ge5OBeEQ8", "_blank", "popup=yes"),
-  fb: () => window.open("https://www.facebook.com/profile.php?id=61551096562233", "_blank", "popup=yes"),
-  invest: () => window.open("https://www.gettingstartedinproperty.co.uk/invest", "popup=yes"),
-};
-
-const linkElements = document.querySelectorAll(".open-link"); // Select all elements with class "open-link"
-linkElements.forEach((element) => {
-  const linkType = element.dataset.linkType; // Get link type from data attribute
-  element.addEventListener("click", () => linkHandlers[linkType]());
-});
-
-// Functions for deal reservation and callback request
-function reserveDeal() {
-  // Redirect to the Stripe checkout page
-  window.open("https://buy.stripe.com/8wM6ry343bX06aY28h", '_blank').focus();
-
+// Helper function to open links
+function openLink(url, options = "_blank", features = "popup=yes") {
+  window.open(url, options, features);
 }
 
-function requestCallback() {
-  // Get investor name and contact number
-  let investorName;
-  let contactNumber;
-  try {
-    investorName = prompt("Please enter your name:");
-    contactNumber = prompt("Please enter your contact number:");
-  } catch (error) {
-    console.error(error);
-    return;
-  }
+// Individual link handler functions
+function openWhatsapp() {
+  openLink("https://api.whatsapp.com/send?phone=447522256422");
+}
 
-  // Check if both name and number are provided
+function openInsta() {
+  openLink("https://www.instagram.com/gettingstartedinproperty/?fbclid=IwAR1Z6k4tz_dwfAxYh_zPTIXuNt_7Qc32BaBmYnzklK4LDb8j-8Ge5OBeEQ8");
+}
+
+function openFb() {
+  openLink("https://www.facebook.com/profile.php?id=61551096562233");
+}
+
+function openInvest() {
+  openLink("https://www.gettingstartedinproperty.co.uk/invest");
+}
+
+// Handle link opening events
+const linkHandlers = {
+  whatsapp: openWhatsapp,
+  insta: openInsta,
+  fb: openFb,
+  invest: openInvest,
+};
+
+// Event delegation for better performance
+document.addEventListener("click", (event) => {
+  const element = event.target.closest(".open-link");
+  if (element) {
+    const linkType = element.dataset.linkType;
+    if (linkHandlers[linkType]) {
+      linkHandlers[linkType]();
+    }
+  }
+});
+
+// Function for deal reservation
+function reserveDeal() {
+  openLink("https://buy.stripe.com/8wM6ry343bX06aY28h");
+}
+
+// Function for callback request
+function requestCallback() {
+  const investorName = prompt("Please enter your name:");
+  const contactNumber = prompt("Please enter your contact number:");
+
   if (!investorName || !contactNumber) {
     alert("Please provide both name and number to request a call-back.");
     return;
   }
 
-  // Generate email body with pre-populated fields
-  const emailBody = `Name: ${investorName}
-Contact Number: ${contactNumber}
-Deal Link: ${window.location.href}`;
-
-  // Encode email body and generate email URL
+  const emailBody = `Name: ${investorName}\nContact Number: ${contactNumber}\nDeal Link: ${window.location.href}`;
   const encodedBody = encodeURIComponent(emailBody);
   const callbackUrl = `mailto:sales@gettingstartedinproperty.co.uk?subject=Callback Request&body=${encodedBody}`;
 
-  // Redirect to email client
   window.location.href = callbackUrl;
 }
 
-// Initialize Swiper (unchanged)
-const swiper = new Swiper(".mySwiper", {
-  loop: true,
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  coverflowEffect: {
-    rotate: 10,
-    stretch: 0,
-    depth: 700,
-    modifier: 1,
-    slideShadows: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    renderBullet: (index, className) => `<span class="${className}">${index + 1}</span>`,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  keyboard: {
-    enabled: true,
-  },
-});
-
+// Initialize Swiper only if necessary
+if (document.querySelector(".mySwiper")) {
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 10,
+      stretch: 0,
+      depth: 700,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: (index, className) => `<span class="${className}">${index + 1}</span>`,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    keyboard: {
+      enabled: true,
+    },
+  });
+}
