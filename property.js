@@ -15,7 +15,8 @@ linkElements.forEach((element) => {
 // Functions for deal reservation and callback request
 function reserveDeal() {
   // Redirect to the Stripe checkout page
-  window.location.href = "https://buy.stripe.com/8wM6ry343bX06aY28h";
+  window.open("https://buy.stripe.com/8wM6ry343bX06aY28h", '_blank').focus();
+
 }
 
 function requestCallback() {
