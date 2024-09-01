@@ -147,6 +147,9 @@ p {
 .details button {
     transition: all 200ms ease-in;
 }
+.details button:hover{
+    font-size: 1.3rem;
+}
 
 .white {
     background-color: #f5f5f5;
