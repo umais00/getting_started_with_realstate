@@ -45,17 +45,17 @@ const propertyData = [
     location: "Berkshire SL1",
     details: "6 beds · 6 baths · Rent: £7,000",
   },
-
   {
     id: 10,
     location: "Luton LU2",
     details: "5 beds · 4 baths · Rent: £3,100",
   }
-
-
-
 ];
 
+// Extract price once and store it in the property data
+propertyData.forEach(property => {
+  property.price = extractPrice(property.details);
+});
 
 // Function to create a list item for each property
 function createPropertyListItem(property) {
@@ -76,14 +76,17 @@ function renderPropertyList() {
   propertyData.forEach((property) => {
     const listItem = createPropertyListItem(property);
     propertyListContainer.appendChild(listItem);
-
-    // Add event listener for click events
-    listItem.addEventListener("click", () => {
-      const propertyId = listItem.id.split("-")[1];
-      window.open(`property${propertyId}.html`, "_blank");
-    });
   });
 }
+
+// Event delegation for click events on property list items
+document.getElementById("propertyList").addEventListener("click", (event) => {
+  const listItem = event.target.closest("li");
+  if (listItem && listItem.classList.contains("card")) {
+    const propertyId = listItem.id.split("-")[1];
+    window.open(`property${propertyId}.html`, "_blank");
+  }
+});
 
 // Call the function to render the property list when the page loads
 window.onload = () => {
@@ -91,8 +94,14 @@ window.onload = () => {
   propertyData.reverse();
   renderPropertyList();
 };
+
+// Cache social media link elements
+const whatsappLink = document.getElementById("whatsapp");
+const instaLink = document.getElementById("insta");
+const fbLink = document.getElementById("fb");
+
 // Event listeners for social media links
-document.getElementById("whatsapp").addEventListener("click", () => {
+whatsappLink.addEventListener("click", () => {
   window.open(
     "https://api.whatsapp.com/send?phone=447522256422",
     "_blank",
@@ -100,7 +109,7 @@ document.getElementById("whatsapp").addEventListener("click", () => {
   );
 });
 
-document.getElementById("insta").addEventListener("click", () => {
+instaLink.addEventListener("click", () => {
   window.open(
     "https://www.instagram.com/gettingstartedinproperty/?fbclid=IwAR1Z6k4tz_dwfAxYh_zPTIXuNt_7Qc32BaBmYnzklK4LDb8j-8Ge5OBeEQ8",
     "_blank",
@@ -108,7 +117,7 @@ document.getElementById("insta").addEventListener("click", () => {
   );
 });
 
-document.getElementById("fb").addEventListener("click", () => {
+fbLink.addEventListener("click", () => {
   window.open(
     "https://www.facebook.com/profile.php?id=61551096562233",
     "_blank",
@@ -124,7 +133,7 @@ document.getElementById("filter").addEventListener("click", () => {
   if (window.getComputedStyle(filterOptions).display === "none") {
     // If filterOptions is hidden, show it
     filterOptions.style.display = "block";
-    filterOptions.style.transform = "translateX(0)";
+    filterOptions.style.transform = "translate3d(0, 0, 0)";
     para.style.display = "none";
     para.style.transform = "translateX(-200px)";
   } else {
@@ -144,10 +153,7 @@ document.getElementById("filter").addEventListener("click", () => {
 // Function to sort propertyData by price
 function sortByPrice(order) {
   propertyData.sort((a, b) => {
-    const priceA = extractPrice(a.details);
-    const priceB = extractPrice(b.details);
-
-    return order === "lowToHigh" ? priceA - priceB : priceB - priceA;
+    return order === "lowToHigh" ? a.price - b.price : b.price - a.price;
   });
 
   renderPropertyList();
