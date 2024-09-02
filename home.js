@@ -12,7 +12,7 @@ const propertyData = [
   },
   {
     id: 3,
-    location: "Raven Row, London E1",
+    location: "London E1",
     details: "5 beds · 2 baths · Rent: £6,000",
   },
   {
@@ -27,7 +27,7 @@ const propertyData = [
   },
   {
     id: 6,
-    location: "Lansdowne Road, Leicester LE2",
+    location: "Leicester LE2",
     details: "5 beds · 2 baths · Rent: £1,400",
   },
   {
